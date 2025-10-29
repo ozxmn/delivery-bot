@@ -19,7 +19,7 @@ Supports **Kazakh** and **English** languages with dynamic menus and both reply 
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/mansur_ozaman/delivery-bot.git
+git clone https://github.com/ozxmn/delivery-bot.git
 cd telegram-delivery-bot
 ```
 
@@ -75,7 +75,7 @@ delivery-bot/
 ## 🧑‍💻 Author
 
 **Mansur Ozaman**  
-🐙 [GitHub](https://github.com/mansur_ozaman)
+🐙 [GitHub](https://github.com/ozxmn)
 
 
 ---
