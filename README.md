@@ -22,7 +22,7 @@ Supports **Kazakh** and **English** languages with Web App menus and both reply 
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/ozxmn/delivery-bot.git
+git clone https://github.com/ozxmn/delivery-template.git
 cd telegram-delivery-bot
 ```
 
@@ -61,7 +61,7 @@ python bot.py
 ## Project structure
 
 ```
-delivery-bot/
+delivery-template/
 ├── bot.py                # Main bot logic
 ├── requirements.txt      # Dependencies
 ├── README.md             # Project description
