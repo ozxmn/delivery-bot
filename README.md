@@ -14,10 +14,11 @@ Supports **Kazakh** and **English** languages with Web App menus and both reply 
 - Location-based address confirmation via OpenStreetMap API 
 - Buttons for menu, location, and language  
 - Modular and customizable structure  
+- User can change the language or location anytime using inline buttons  
 
 ---
 
-## Setup & installation
+## Installation
 
 ### 1️⃣ Clone the repo
 ```bash
@@ -30,26 +31,30 @@ cd telegram-delivery-bot
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Add your bot tolen
-Open `bot.py` and replace:
-```python
-bot = telebot.TeleBot("YOUR_BOT_TOKEN")
-```
-with your actual token from [@BotFather](https://t.me/BotFather).
+---
 
-### 4️⃣ Run the bot
+## Configuration
+
+1. Rename the .env.example file to .env:
+```bash
+cp .env.example .env
+```
+2. Open the ```.env```  file and provide your Bot API token.
+
+---
+
+## Running the bot
+   Simply execute the following command: 
 ```bash
 python bot.py
 ```
 
----
-
-## Usage
-
-1. User selects a language (Kazakh or English)  
-2. Bot requests their location  
-3. Reverse-geocoding via OpenStreetMap confirms address  
-4. User confirms → Menu & actions displayed 5. User can change the language or location anytime using inline buttons  
+## Example usage
+1. Bot started
+2. User selects a language (Kazakh or English)  
+3. Bot requests their location  
+4. Reverse-geocoding via OpenStreetMap confirms address  
+5. User confirms → Menu & actions displayed
 
 ---
 
@@ -74,11 +79,6 @@ delivery-bot/
 ---
 
 ## Developer
+**Mansur Ozaman**
 
-**Mansur Ozaman**  
-[GitHub](https://github.com/ozxmn)
-
-
----
-
-
+- [GitHub](https://github.com/ozxmn)
