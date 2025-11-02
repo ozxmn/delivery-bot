@@ -20,13 +20,13 @@ Supports **Kazakh** and **English** languages with Web App menus and both reply 
 
 ## Installation
 
-### 1️⃣ Clone the repo
+### 1. Clone the repo
 ```bash
 git clone https://github.com/ozxmn/delivery-bot.git
 cd telegram-delivery-bot
 ```
 
-### 2️⃣ Install dependencies
+### 2. Install the dependencies
 ```bash
 pip install -r requirements.txt
 ```
