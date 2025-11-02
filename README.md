@@ -1,4 +1,7 @@
 # Telegram food delivery bot template
+<p align="center">
+  <img src="https://github.com/ozxmn/previews/blob/main/giphy.gif" alt="My GIF" width="400">
+</p>
 
 A ready-to-use Telegram bot template built with **Python** and **pyTelegramBotAPI**, designed for food delivery services.  
 Supports **Kazakh** and **English** languages with Web App menus and both reply and inline keyboards.
