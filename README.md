@@ -10,7 +10,8 @@ Supports **Kazakh** and **English** languages with Web App menus and both reply 
 
 ## Features
 
-- Multi-language support (Kazakh / English) - Location-based address confirmation via OpenStreetMap API 
+- Multi-language support (Kazakh / English)
+- Location-based address confirmation via OpenStreetMap API 
 - Buttons for menu, location, and language  
 - Modular and customizable structure  
 
