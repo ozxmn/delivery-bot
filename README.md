@@ -1,58 +1,55 @@
-# 🛵 Telegram Delivery Bot Template
+# Telegram food delivery bot template
 
-A ready-to-use Telegram bot template built with **Python** and **pyTelegramBotAPI**, designed for food delivery or location-based services.  
-Supports **Kazakh** and **English** languages with dynamic menus and both reply and inline keyboards.
-
----
-
-## 🚀 Features
-
-- 🌍 Multi-language support (Kazakh / English)  
-- 📍 Location-based address confirmation via OpenStreetMap Nominatim API 
-- 🧭 Buttons for menu, location, and language  
-- 🔄 Error-safe polling loop (auto-reconnects)  
-- 🧱 Modular and customizable structure  
+A ready-to-use Telegram bot template built with **Python** and **pyTelegramBotAPI**, designed for food delivery services.  
+Supports **Kazakh** and **English** languages with Web App menus and both reply and inline keyboards.
 
 ---
 
-## 🧩 Setup & Installation
+## Features
 
-### 1️⃣ Clone the Repository
+- Multi-language support (Kazakh / English) - Location-based address confirmation via OpenStreetMap API 
+- Buttons for menu, location, and language  
+- Modular and customizable structure  
+
+---
+
+## Setup & installation
+
+### 1️⃣ Clone the repo
 ```bash
 git clone https://github.com/ozxmn/delivery-bot.git
 cd telegram-delivery-bot
 ```
 
-### 2️⃣ Install Dependencies
+### 2️⃣ Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Add Your Bot Token
+### 3️⃣ Add your bot tolen
 Open `bot.py` and replace:
 ```python
 bot = telebot.TeleBot("YOUR_BOT_TOKEN")
 ```
 with your actual token from [@BotFather](https://t.me/BotFather).
 
-### 4️⃣ Run the Bot
+### 4️⃣ Run the bot
 ```bash
 python bot.py
 ```
 
 ---
 
-## 🧠 How It Works
+## Usage
 
 1. User selects a language (Kazakh or English)  
 2. Bot requests their location  
 3. Reverse-geocoding via OpenStreetMap confirms address  
-4. User confirms → Menu & actions displayed  
-5. Change language/location anytime with inline buttons  
+4. User confirms → Menu & actions displayed 5. User can change the language or location anytime using inline buttons  
 
 ---
 
-## 🧱 Folder Structure
+## Project structure
 
 ```
 delivery-bot/
@@ -64,7 +61,7 @@ delivery-bot/
 
 ---
 
-## 🧰 Technologies Used
+## Technologies Used
 
 - [Python 3.x](https://www.python.org/)
 - [pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI)
@@ -72,10 +69,10 @@ delivery-bot/
 
 ---
 
-## 🧑‍💻 Author
+## Developer
 
 **Mansur Ozaman**  
-🐙 [GitHub](https://github.com/ozxmn)
+[GitHub](https://github.com/ozxmn)
 
 
 ---
