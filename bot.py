@@ -1,12 +1,16 @@
 import telebot
 from telebot import types
+
 import urllib.request
 import json
 import time
 import logging
+from dotenv import load_dotenv
+import os
 
 logging.basicConfig(level=logging.INFO)
 
+load_dotenv()
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 bot = telebot.TeleBot(BOT_TOKEN)
 
