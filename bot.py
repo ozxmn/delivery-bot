@@ -7,7 +7,9 @@ import logging
 
 logging.basicConfig(level=logging.INFO)
 
-bot = telebot.TeleBot("YOUR_BOT_TOKEN")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+bot = telebot.TeleBot(BOT_TOKEN)
+
 user_languages = {}
 user_messages = {}
 confirmation_messages = {}
