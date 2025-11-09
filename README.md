@@ -79,6 +79,4 @@ delivery-template/
 ---
 
 ## Developer
-**Mansur Ozaman**
-
-- [GitHub](https://github.com/ozxmn)
+**Mansur Ozaman**: https://github.com/ozxmn
